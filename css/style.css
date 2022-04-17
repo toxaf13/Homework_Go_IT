@@ -1,0 +1,258 @@
+.container{
+   width: 1170px;
+   margin: 0 auto;
+}
+ul,ol{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+ul,h4,p{
+   margin: 0;
+   padding: 0;
+}
+img{
+   max-width: 100%;
+   display: block;
+}
+a{
+   text-decoration: none;
+}
+/*start section header*/
+.header{
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   align-items: center;
+}
+.logo_web{
+   color: #2196F3;
+}
+.logo{
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+}
+.nav_item{
+   margin-left: 46px;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+}
+.nav_menu{
+   margin-right: 350px;
+}
+.menu_contacts{
+   display: flex;
+}
+.menu_contacts a{
+   color: #757575;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16;
+}
+.nav_hover{
+   color: #212121; 
+}
+.nav_hover:hover{
+   color: #2196F3;
+}
+.nav_hover:active{
+   color: #2196F3;
+}
+.tel{
+   margin-left: 50px;
+}
+/*start section one*/
+.main_one{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   flex-direction: column;   
+}
+.one{
+   background-color:#2F303A;
+}
+.main_h1{
+   font-size: 34px;
+   font-weight: 900;
+   line-height: 60px;
+   letter-spacing: 0.06em;
+   text-align: center;
+   color: white;
+   width: 696px;
+}
+.main_button_link{
+   display: block;
+   margin: 10px 40px;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0.06em;
+}
+/*start section two*/
+.lorem{
+   margin-top: 94px;
+   margin-bottom: 94px;
+}
+.lorem_item{
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   text-align: left;
+}
+.lorem_item p{
+   color: #757575;
+}
+.lorem_item h3{
+   color: #212121;
+   margin-bottom: 10px;
+}
+.praca_h2{
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 42px;
+   letter-spacing: 0.03em;
+   margin-bottom: 50px;
+}
+.praca{
+   margin-bottom: 94px;
+}
+/*start section three*/
+.three{
+   background-color: #F5F4FA;
+   height: 648px;
+}
+.zespol_h2{
+   text-align: center;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 42px;
+   letter-spacing: 0.03em;
+   margin-bottom: 50px;
+}
+.zespol_section{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.zespol_item{
+   width: 270px;
+   height: 368px;
+   background-color: #FFFFFF;
+   text-align: center;
+   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+   ;
+}
+.zespol_item h4 {
+   margin-top: 30px;
+   color: #212121;
+}
+.zespol_item p{
+   margin-top: 10px;
+   margin-bottom: 30px;
+   color: #757575;
+}
+/*Start section portfolio*/
+.portfolio{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.portfolio_wrap{
+   margin-bottom: 50px;
+}
+.portfolio_nav{
+   justify-content: center;
+}
+.button:active{
+   background-color: #2196F3;
+   color: white;
+}
+.button:hover{
+   background-color: #2196F3;
+   color: white;
+}
+.button{
+   margin-top: 30px;
+   border: none;
+   cursor: pointer;
+   color: #212121;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0.06em;
+}
+.btn{
+   margin: 6px 22px;
+}
+.portfolio_nav_item{
+   margin-left: 8px;
+}
+.portfolio_item{
+   height: 370px;
+   background-color: #FFFFFF;
+   text-align: left;
+   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.portfolio_item img{
+   width: 370px;
+   height: 294px;
+}
+.portfolio_item h4 {
+   margin-top: 20px;
+   color: #212121;
+   margin-left: 24px;
+}
+.portfolio_item p{
+   margin-top: 4px;
+   margin-left: 24px;
+   color: #757575;
+}
+.portfolio_wrap_items{
+   flex-wrap: wrap;
+   align-content: space-between;
+   gap: 30px;
+}
+/*start section footer*/
+footer{
+   background-color: #2F303A;
+}
+.footer{
+   height: 252px;
+   color: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.logo_footer a{
+   color: #FFFFFF;
+}
+.logo_footer{
+   margin-bottom: 20px;
+}
+.menu_contacts_footer a{
+   color: rgba(255, 255, 255, 0.6);
+}
+.email_footer{
+   margin-top: 9px;
+}
+.tel_footer{
+   margin-top: 9px;
+   margin-left: 0;
+}
